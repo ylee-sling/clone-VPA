@@ -1,0 +1,43 @@
+# Python bytecode and builds
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# test and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# virtual environments
+.venv/
+venv/
+.env
+
+# checkpoints, datasets and run outputs (data caches)
+checkpoints/
+ckpt/
+data/
+datasets/
+cache/
+.cache/
+runs/
+outputs/
+wandb/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+
+# release archives
+*.zip
+
+# editors and OS files
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,53 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+type: software
+title: "clone-VPA: official implementation of CMA-VPA (Dynamic Latent Cloning with Continuous Barrier Guidance: Multi-Agent Vision-Predictor-Action)"
+abstract: >-
+  Official open-source implementation of CMA-VPA, a multi-agent extension of
+  Vision-Predictor-Action: a PR-JEPA master that samples a joint mode over a
+  quantized latent bus, clones with a K + 3 sequential decision chain and a
+  conditional flow-matching action solver, and the CBF-DeGG-Flow safety layer
+  (reciprocal high-order barrier shares, flow-time endpoint projection and
+  knot-boundary projection), with Task T1 (multi-UAV antipodal crossing) and
+  Task T2 (dual-arm tabletop assembly).
+authors:
+  - family-names: Lee
+    given-names: Yeonseok
+    email: ylee@sling.ai.kr
+    orcid: "https://orcid.org/0009-0004-6153-0205"
+    affiliation: "SLING AI Inc., Incheon, Republic of Korea"
+repository-code: "https://github.com/ylee-sling/clone-VPA"
+url: "https://github.com/ylee-sling/clone-VPA"
+license: GPL-3.0-only
+version: 0.1.0
+keywords:
+  - multi-agent robotics
+  - joint-embedding predictive architecture
+  - flow matching
+  - control barrier functions
+  - vision-predictor-action
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23679374
+    description: "Archived preprint of the paper"
+references:
+  - type: software
+    title: "Vision-Predictor-Action (VPA): single-agent foundation"
+    authors:
+      - family-names: Lee
+        given-names: Yeonseok
+    repository-code: "https://github.com/ylee-sling/Vision-Predictor-Action"
+preferred-citation:
+  type: article
+  title: "Dynamic Latent Cloning with Continuous Barrier Guidance: Multi-Agent Vision-Predictor-Action"
+  authors:
+    - family-names: Lee
+      given-names: Yeonseok
+      email: ylee@sling.ai.kr
+      orcid: "https://orcid.org/0009-0004-6153-0205"
+      affiliation: "SLING AI Inc., Incheon, Republic of Korea"
+  doi: 10.5281/zenodo.23679374
+  url: "https://doi.org/10.5281/zenodo.23679374"
+  publisher:
+    name: Zenodo
+  year: 2026
